@@ -1,4 +1,4 @@
-name: Hourly Scraping
+name: Scraping Every Hour
 
 on:
   schedule:
