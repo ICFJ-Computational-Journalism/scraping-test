@@ -28,7 +28,7 @@ if response.status_code == 200:
         scraped_data.append(data)
 
     # Save the scraped data to a timestamped file
-    filename = f"data_{timestamp}.txt"
+    filename = f"data_store/data_{timestamp}.txt"
     with open(filename, 'w') as file:
         for data in scraped_data:
             file.write(data + '\n')
